@@ -4,7 +4,7 @@ body{
 	font-family: Arial,sans-serif;
 }
 h1{
-	border-buttom: solid #334B66 4px;
+	border-bottom: solid #334B66 4px;
 	font-size: 160%;
 
 }
@@ -22,7 +22,7 @@ th{
 	text-align: left;
 	padding: 5px;
 }
-footer{
+.footer{
 	border-top: solid #334B66 4px;
 	font-size: 90%;
 }
