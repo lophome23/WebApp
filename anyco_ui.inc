@@ -18,11 +18,13 @@ END;
    }
 
    function ui_print_footer($date){
-		$date= htmlentities($date);
+		$date = htmlentities($date);
 		echo <<<END
     <div class = "date">$date</div>
-		<div clsas ="company">Any Co.</div>
+		<div class ="company">Any Co.</div>
 	</div>
 END;
 }
 ?>
+
+
