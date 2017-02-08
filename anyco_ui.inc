@@ -12,6 +12,7 @@
       <link rel="stylesheet" type="text/css" href = "style.css">
       <title>Any Co.: $title</title>
     </head>
+    <HR>
     <body>
       <h1>$title</h1>
 END;
@@ -20,11 +21,13 @@ END;
    function ui_print_footer($date){
 		$date = htmlentities($date);
 		echo <<<END
+    <div class = "footer">
     <div class = "date">$date</div>
 		<div class ="company">Any Co.</div>
 	</div>
 END;
 }
 ?>
+
 
 
