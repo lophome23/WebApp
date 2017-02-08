@@ -16,12 +16,7 @@
       <h1>$title</h1>
      END;
       }
-      
-      
-      
-      
-      
-      
+    
       function ui_print_footer ($date){
 		$date= htmlentities($date);
 		echo <<< END
